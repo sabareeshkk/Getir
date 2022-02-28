@@ -55,7 +55,7 @@ const response = (data) => {
  *     }
  * 
  * @apiExample {curl} Example usage:
- *     curl --location --request POST 'localhost:3000/getir' \
+ *     curl --location --request POST 'https://dry-island-28133.herokuapp.com/v1/records' \
  *          --header 'Content-Type: application/json' \
  *           --data-raw '{
  *                 "startDate": "2016-01-26",
